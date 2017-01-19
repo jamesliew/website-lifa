@@ -34,6 +34,7 @@ body {
 .top-bar-right {
   font-family: 'Montserrat-Bold', sans-serif;
   text-transform: uppercase;
+  padding-top: 10px;
 }
 .menu-icon.dark {
   float:left;
