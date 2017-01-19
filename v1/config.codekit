@@ -2435,6 +2435,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/og.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32517,
+		"inputAbbreviatedPath": "\/img\/og.jpg",
+		"outputAbbreviatedPath": "\/img\/og.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/our_products.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
