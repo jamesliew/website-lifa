@@ -7,9 +7,27 @@
     <title>Contact Us | Lifa Ceramics</title>
     <meta name="author" content="James Liew Studio">
     <meta name="description" content="Lifa is a toilet accessories manufacturer in Singapore that provides a wide range of modern and high-quality sanitary ware. We produce sanitary ware with great aesthetics at a competitive price point." />
+    <meta property="og:title" content="Toilet Accessories Manufacturer in Singapore | Lifa Ceramics" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lifasg.com" />
+    <meta property="og:image" content="https://lifasg.com/v1/img/og.jpg" />
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script>
+        (function(d, w, c) {
+            w.ChatraID = 'iaDMj3TBvT8iDrAdg';
+            var s = d.createElement('script');
+            w[c] = w[c] || function() {
+                (w[c].q = w[c].q || []).push(arguments);
+            };
+            s.async = true;
+            s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
+            + '//call.chatra.io/chatra.js';
+            if (d.head) d.head.appendChild(s);
+        })(document, window, 'Chatra');
+    </script>
   </head>
   <body>
     <div class="row align-center">
@@ -51,30 +69,36 @@
             <p>Contact one of our experts and we’ll get back to you as soon as possible.<br>We generally respond within one working day.</p>
           </div>
         </div>
-        <div class="row contact-form">
-          <div class="medium-4 columns">
-            <input type="text" placeholder="Your name*">
+        <form data-abide novalidate action="https://formspree.io/sales@lifasg.com" method="POST">
+          <div class="row contact-form">
+            <div class="medium-4 columns">
+              <input type="text" name="name" placeholder="Your name*" required>
+              <span class="form-error">Your name is required.</span>
+            </div>
+            <div class="medium-4 columns float-left">
+              <input type="text" name="_replyto" placeholder="Your email*" required pattern="email">
+              <span class="form-error">A valid email address is required.</span>
+            </div>
           </div>
-          <div class="medium-4 columns float-left">
-            <input type="text" placeholder="Your email*">
+          <div class="row contact-form">
+            <div class="medium-4 columns">
+              <input type="text" name="contact no." placeholder="Contact no.*" required pattern="alpha_numeric">
+              <span class="form-error">Your contact number is required.</span>
+            </div>
+          </div>
+          <div class="row contact-form">
+            <div class="medium-12 columns">
+              <textarea placeholder="Ask your questions *" name="message" required></textarea>
+              <span class="form-error">Your forgot to leave us a message!</span>
+            </div>
+          </div>
+          <div class="row contact-form">
+            <div class="medium-12 columns">
+              <button type="submit" class="button mlist-contact" href="#">Email Us</button>
+            </div>
           </div>
         </div>
-        <div class="row contact-form">
-          <div class="medium-4 columns">
-            <input type="text" placeholder="Contact no.*">
-          </div>
-        </div>
-        <div class="row contact-form">
-          <div class="medium-12 columns">
-            <textarea placeholder="Ask your questions *"></textarea>
-          </div>
-        </div>
-        <div class="row contact-form">
-          <div class="medium-12 columns">
-            <a class="button mlist-contact" href="#">Email Us</a>
-          </div>
-        </div>
-      </div>
+      </form>
       <div class="small-12 medium-4 columns no-padding">
         <div class="row">
           <div class="small-12 columns contact-main">
@@ -100,12 +124,14 @@
       <div class="small-12 medium-6 columns">
         <h4>Mailing List</h4>
         <p>For the latest in Lifa Ceramics innovations, promotions, and more, sign up for our Newsletter!</p>
+        <form action="http://lifasg.us15.list-manage.com/subscribe/post?u=dd007352392351f3c786ca79c&amp;id=f0606b760a" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" data-abide novalidate>
         <div class="input-group f-form">
-          <input class="input-group-field" type="text" placeholder="Your email*">
+          <input class="input-group-field" type="text" placeholder="Your email*" name="EMAIL" required>
           <div class="input-group-button">
-            <input type="submit" class="button mlist" value="Get Updates">
+            <input type="submit" class="button mlist" value="Get Updates" name="subscribe">
           </div>
         </div>
+        </form>
       </div>
       <div class="small-12 medium-6 columns">
         <div class="row">
@@ -138,12 +164,16 @@
       </div>
       <div class="small-12 medium-6 columns">
         <p>
-          © 2017 Ecogreenify Pte. Ltd. All Rights Reserved
+          © <script language="javascript" type="text/javascript">
+              var today = new Date()
+              var year = today.getFullYear()
+              document.write(year)
+            </script> Ecogreenify Pte. Ltd. All Rights Reserved
         </p>
       </div>
       <div class="small-12 medium-6 columns">
         <ul class="social-list">
-          <li><a href="#"><img src="img/facebook.svg" style="width:30px;"></a></li>
+          <li><a href="https://www.facebook.com/lifaceramics/" target="_blank"><img src="img/facebook.svg" style="width:30px;"></a></li>
           <li><a href="#"><img src="img/wechat.svg" style="width:30px;"></a></li>
           <li><a href="#"><img src="img/alibaba.svg" style="width:50px;"></a></li>
           <li><a href="#"><img src="img/taobao.svg" style="width:30px;"></a></li>
@@ -156,5 +186,15 @@
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
 
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-90762530-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </body>
 </html>
